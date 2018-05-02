@@ -12,7 +12,7 @@ function preload() {
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
-  background(random(50, 255), random(50, 255), random(50, 255));
+  background(random(0, 255), random(0, 255), random(0, 255));
   sound.loop();
 }
 
@@ -42,4 +42,5 @@ function keyPressed() {
 
 function windowResized() {
   resizeCanvas(window.innerWidth, window.innerHeight);
+  background(random(0, 255), random(0, 255), random(0, 255));
 }
