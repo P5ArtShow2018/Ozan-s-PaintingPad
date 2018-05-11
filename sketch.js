@@ -13,7 +13,7 @@ function preload() {
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   background(random(0, 255), random(0, 255), random(0, 255));
-  sound.loop();
+  sound.play();
 }
 
 function draw() { noCursor(); }
